@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#A98467"/><stop offset="1" stop-color="#5A3A28"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#E9D3A0" stop-opacity=".55"/><stop offset="1" stop-color="#E9D3A0" stop-opacity="0"/></radialGradient>
+<radialGradient id="dot"><stop offset="0" stop-color="#FBF5E8" stop-opacity=".7"/><stop offset="1" stop-color="#FBF5E8" stop-opacity="0"/></radialGradient>
+<linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1F130C" stop-opacity="0"/><stop offset="1" stop-color="#1F130C" stop-opacity=".55"/></linearGradient>
+</defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<circle cx="762" cy="272" r="626" fill="url(#glow)"/>
+<circle cx="935" cy="118" r="58" fill="url(#dot)" opacity="0.78"/>
+<circle cx="852" cy="213" r="65" fill="url(#dot)" opacity="0.63"/>
+<circle cx="1159" cy="939" r="69" fill="url(#dot)" opacity="0.77"/>
+<circle cx="653" cy="694" r="78" fill="url(#dot)" opacity="0.65"/>
+<circle cx="943" cy="199" r="50" fill="url(#dot)" opacity="0.66"/>
+<circle cx="79" cy="702" r="70" fill="url(#dot)" opacity="0.40"/>
+<circle cx="771" cy="784" r="71" fill="url(#dot)" opacity="0.34"/>
+<circle cx="1088" cy="575" r="31" fill="url(#dot)" opacity="0.55"/>
+<circle cx="1188" cy="364" r="81" fill="url(#dot)" opacity="0.59"/>
+<circle cx="1165" cy="768" r="26" fill="url(#dot)" opacity="0.65"/>
+<rect y="660" width="1200" height="540" fill="url(#floor)"/>
+<path d="M315 1056 V564 A276 276 0 0 1 867 564 V1056" fill="#FBF5E8" fill-opacity=".05" stroke="#F4E7C6" stroke-opacity="0.45" stroke-width="3"/>
+<path d="M354 1056 V572 A237 237 0 0 1 829 572 V1056" fill="none" fill-opacity=".05" stroke="#F4E7C6" stroke-opacity="0.22" stroke-width="2"/>
+</svg>

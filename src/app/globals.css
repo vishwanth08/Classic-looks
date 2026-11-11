@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------
+   BRAND COLOURS — change these RGB triplets to re-theme the whole site.
+   ------------------------------------------------------------------ */
+:root {
+  --walnut: 43 27 18;       /* Dark walnut brown  #2B1B12 */
+  --wood: 74 46 30;         /* Deep wood brown    #4A2E1E */
+  --beige: 217 199 174;     /* Warm beige         #D9C7AE */
+  --sand: 238 227 210;      /* Light beige        #EEE3D2 */
+  --ivory: 247 241 230;     /* Ivory / cream      #F7F1E6 */
+  --warm-white: 252 249 244;/* Soft warm white    #FCF9F4 */
+  --champagne: 201 169 106; /* Champagne gold     #C9A96A (accent only) */
+  --gold-deep: 128 96 46;   /* Gold for text on light backgrounds #80602E */
+  --charcoal: 35 31 28;     /* Dark charcoal      #231F1C */
+}
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+    scroll-padding-top: 4.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-ivory font-sans text-[1rem] font-light leading-relaxed text-charcoal antialiased;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display font-medium tracking-tight;
+  }
+  ::selection {
+    background: rgb(var(--champagne) / 0.45);
+    color: rgb(var(--walnut));
+  }
+  :focus-visible {
+    outline: 2px solid rgb(var(--champagne));
+    outline-offset: 3px;
+  }
+  img { -webkit-user-drag: none; }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-[1320px] px-5 sm:px-8 lg:px-12;
+  }
+  .section-y {
+    @apply py-20 sm:py-28 lg:py-32;
+  }
+  .display-xl {
+    font-size: clamp(2.85rem, 8.2vw, 6.6rem);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+  }
+  .display-lg {
+    font-size: clamp(2.2rem, 5vw, 4rem);
+    line-height: 1.08;
+    letter-spacing: -0.015em;
+  }
+  .display-md {
+    font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+    line-height: 1.15;
+  }
+  .gold-rule {
+    @apply block h-px w-14 bg-champagne;
+  }
+  /* Animated underline used on text links and nav items */
+  .link-underline {
+    position: relative;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 1px;
+    transition: background-size 0.45s cubic-bezier(0.22, 1, 0.36, 1), color 0.3s;
+    padding-bottom: 3px;
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible,
+  .link-underline[aria-current="true"] {
+    background-size: 100% 1px;
+  }
+  /* Hide scrollbar on horizontally scrolling filter strips */
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

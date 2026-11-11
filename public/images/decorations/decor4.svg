@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9C7AE"/><stop offset="1" stop-color="#9C7B58"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#E9D3A0" stop-opacity=".55"/><stop offset="1" stop-color="#E9D3A0" stop-opacity="0"/></radialGradient>
+<radialGradient id="dot"><stop offset="0" stop-color="#FBF5E8" stop-opacity=".7"/><stop offset="1" stop-color="#FBF5E8" stop-opacity="0"/></radialGradient>
+<linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1F130C" stop-opacity="0"/><stop offset="1" stop-color="#1F130C" stop-opacity=".55"/></linearGradient>
+</defs>
+<rect width="1200" height="1500" fill="url(#bg)"/>
+<circle cx="547" cy="621" r="914" fill="url(#glow)"/>
+<circle cx="90" cy="500" r="54" fill="url(#dot)" opacity="0.27"/>
+<circle cx="979" cy="1095" r="41" fill="url(#dot)" opacity="0.60"/>
+<circle cx="634" cy="510" r="74" fill="url(#dot)" opacity="0.61"/>
+<circle cx="333" cy="435" r="68" fill="url(#dot)" opacity="0.80"/>
+<circle cx="1117" cy="933" r="64" fill="url(#dot)" opacity="0.75"/>
+<circle cx="1175" cy="1060" r="45" fill="url(#dot)" opacity="0.48"/>
+<circle cx="273" cy="542" r="94" fill="url(#dot)" opacity="0.52"/>
+<circle cx="395" cy="198" r="41" fill="url(#dot)" opacity="0.70"/>
+<circle cx="1142" cy="1067" r="30" fill="url(#dot)" opacity="0.40"/>
+<circle cx="169" cy="556" r="45" fill="url(#dot)" opacity="0.52"/>
+<circle cx="541" cy="758" r="69" fill="url(#dot)" opacity="0.53"/>
+<circle cx="54" cy="1131" r="62" fill="url(#dot)" opacity="0.73"/>
+<rect y="825" width="1200" height="675" fill="url(#floor)"/>
+<path d="M290 1320 V740 A276 276 0 0 1 842 740 V1320" fill="#FBF5E8" fill-opacity=".05" stroke="#F4E7C6" stroke-opacity="0.45" stroke-width="3"/>
+<path d="M329 1320 V748 A237 237 0 0 1 804 748 V1320" fill="none" fill-opacity=".05" stroke="#F4E7C6" stroke-opacity="0.22" stroke-width="2"/>
+</svg>
