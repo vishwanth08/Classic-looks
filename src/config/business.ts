@@ -20,7 +20,7 @@ export const WHATSAPP_NUMBER = "9014458494";
 /** Used for the Call buttons. Example: "+919876543210" */
 export const PHONE_NUMBER = "+91 9014458494";
 
-export const BUSINESS_EMAIL = "example@email.com";
+export const BUSINESS_EMAIL = "classiclooksweddingphotography@gmail.com";
 
 // ---- Types ------------------------------------------------------------------
 
