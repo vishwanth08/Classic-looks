@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Mail, MessageCircle, Phone } from "lucide-react";
 import Image from "next/image";
 import { useRef } from "react";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { mailtoUrl, telUrl, whatsappUrl } from "@/lib/contact";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";

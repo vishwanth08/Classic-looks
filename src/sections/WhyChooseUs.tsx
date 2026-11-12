@@ -1,4 +1,4 @@
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { Icon } from "@/lib/icons";
 import Reveal from "@/components/ui/Reveal";
 import SectionHeading from "@/components/ui/SectionHeading";

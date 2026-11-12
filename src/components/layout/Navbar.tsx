@@ -5,7 +5,7 @@ import { Phone } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { telUrl } from "@/lib/contact";
 import { cn, EASE } from "@/lib/utils";
 import Button from "@/components/ui/Button";

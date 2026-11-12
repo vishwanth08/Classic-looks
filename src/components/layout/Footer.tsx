@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Clock, Instagram, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { formattedAddress, mailtoUrl, telUrl, whatsappForEvent, whatsappForService, whatsappUrl } from "@/lib/contact";
 import Button from "@/components/ui/Button";
 import Logo from "@/components/ui/Logo";

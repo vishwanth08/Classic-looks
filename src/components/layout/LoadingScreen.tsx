@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 
 export default function LoadingScreen({ onDone }: { onDone: () => void }) {
   const [visible, setVisible] = useState(true);

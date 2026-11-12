@@ -1,4 +1,4 @@
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { formattedAddress } from "@/lib/contact";
 
 /** JSON-LD for Google Search / Maps. All values come from src/config/business.ts. */

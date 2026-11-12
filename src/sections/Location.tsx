@@ -1,5 +1,5 @@
 import { Clock, MapPin } from "lucide-react";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { formattedAddress, mapsEmbedUrl } from "@/lib/contact";
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";

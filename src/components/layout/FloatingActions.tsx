@@ -1,7 +1,7 @@
 "use client";
 
 import { MessageCircle, Phone } from "lucide-react";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { telUrl, whatsappUrl } from "@/lib/contact";
 
 /** Floating WhatsApp button on every screen, plus a Call button on phones. */

@@ -1,5 +1,5 @@
 import { Clock, Instagram, Mail, MapPin, MessageCircle, Phone, Navigation } from "lucide-react";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { formattedAddress, mailtoUrl, telUrl, whatsappUrl } from "@/lib/contact";
 import Reveal from "@/components/ui/Reveal";
 import SectionHeading from "@/components/ui/SectionHeading";

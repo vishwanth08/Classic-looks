@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 
 /** Brand lockup. Uses business.logo if set, otherwise the initials mark. */
 export default function Logo({ className = "" }: { className?: string }) {

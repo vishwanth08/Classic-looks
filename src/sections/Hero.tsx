@@ -8,7 +8,7 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { EASE } from "@/lib/utils";
 import { useSiteReady } from "@/components/layout/Providers";
 import Button from "@/components/ui/Button";

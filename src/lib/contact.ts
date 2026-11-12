@@ -1,4 +1,4 @@
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 
 const fill = (template: string, name: string) => template.replace("{name}", name);
 

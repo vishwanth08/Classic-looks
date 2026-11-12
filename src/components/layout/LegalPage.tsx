@@ -1,4 +1,4 @@
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 
 export default function LegalPage({ title, children }: { title: string; children: React.ReactNode }) {
   return (

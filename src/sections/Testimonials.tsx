@@ -3,7 +3,7 @@
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { useEffect, useState } from "react";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { cn, EASE } from "@/lib/utils";
 import SectionHeading from "@/components/ui/SectionHeading";
 

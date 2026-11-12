@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Jost } from "next/font/google";
 import "./globals.css";
-import { business } from "@/config/business";
+import { business } from "@/config/business.1";
 import { buildJsonLd } from "@/lib/schema";
 import Providers from "@/components/layout/Providers";
 import Navbar from "@/components/layout/Navbar";
